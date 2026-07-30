@@ -1,8 +1,26 @@
 aid: lucid-lane
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lucid-lane.png
 name: Lucid Lane
-description: 'Lucid Lane is a company surfaced as a portfolio company of accel, battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Lucid Lane (now operating as Skyler Health) is a telehealth mental
+  health platform delivering virtual talk therapy and counseling for mental health
+  conditions, an AI-powered coaching companion, and guided meditation and mindfulness
+  content through its Listen Therapy service. Originally founded to help patients
+  taper off opioids and manage medication dependence during and after surgery, the
+  company has since broadened into remote behavioral and mental health care delivered
+  to members, employers, clinics, and providers. It is a consumer- and employer-facing
+  care service with no public developer or API surface; member access is via the
+  Skyler Health member portal. Backed by Accel and Battery Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/lucid-lane/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,18 +29,41 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-note: 'lucidlane.com now 301-redirects to skylerhealth.com; the company rebranded
+  from Lucid Lane to Skyler Health. No public API, developer portal, SDK, or docs
+  surface exists as of the 2026-07-20 enrichment pass.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Telehealth
+- Mental Health
+- Behavioral Health
+- Digital Therapeutics
+- Wellness
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/lucid-lane-domain-security.yml
 - type: Website
-  url: https://www.lucidlane.com/
+  url: https://www.skylerhealth.com/
+- type: SignUp
+  url: https://member.skylerhealth.com/
+- type: Support
+  url: https://www.skylerhealth.com/faqs
+- type: TermsOfService
+  url: https://www.skylerhealth.com/tou
+- type: PrivacyPolicy
+  url: https://www.skylerhealth.com/privacy-policy
