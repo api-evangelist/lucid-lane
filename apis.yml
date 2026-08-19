@@ -32,7 +32,7 @@ x-tier-reason: portfolio-lead
 x-note: 'lucidlane.com now 301-redirects to skylerhealth.com; the company rebranded
   from Lucid Lane to Skyler Health. No public API, developer portal, SDK, or docs
   surface exists as of the 2026-07-20 enrichment pass.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
